@@ -7,7 +7,8 @@ pyrtd
 =====
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+  :caption: Table of Contents
+  :numbered:
 
-usage
+  usage
