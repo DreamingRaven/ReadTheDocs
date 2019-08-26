@@ -36,9 +36,9 @@ else:
 source_relative_path = "../../../"  # relative to config.py
 source_path = os.path.join(str(__file__), source_relative_path)
 source_path = os.path.abspath(source_path)
-# first add nemesyst_core path
-sys.path.insert(0, os.path.join(source_path, "nemesyst_core"))
-# then add nemesyst dir path
+# first add src path
+sys.path.insert(0, os.path.join(source_path, "src"))
+# then add parent dir path
 sys.path.insert(0, source_path)
 print("sys path:", sys.path)
 
